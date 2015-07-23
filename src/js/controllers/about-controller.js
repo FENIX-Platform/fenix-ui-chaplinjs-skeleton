@@ -5,7 +5,7 @@ define([
 ], function (Controller, View) {
     'use strict';
 
-    var HomeController = Controller.extend({
+    var AboutController = Controller.extend({
 
         show: function (params) {
 
@@ -15,5 +15,5 @@ define([
         }
     });
 
-    return HomeController;
+    return AboutController;
 });

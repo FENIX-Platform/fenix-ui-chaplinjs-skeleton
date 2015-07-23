@@ -5,7 +5,7 @@ define([
     'config/Events',
     'controllers/base/controller',
     'views/protected-view',
-    'fx-common/AuthManager',
+    'globals/AuthManager',
     'rsvp'
 ], function (Chaplin, _, E, Controller, View, AuthManager, RSVP) {
     'use strict';
@@ -14,6 +14,7 @@ define([
 
         beforeAction: function () {
             Controller.prototype.beforeAction.call(this, arguments);
+
             return this.performAccessControlChecks().then(undefined, _.bind(this.denyAccessControl, this))
         },
 
@@ -21,7 +22,7 @@ define([
 
             return new RSVP.Promise(function (fulfilled, rejected) {
 
-                if (!new AuthManager().isLogged()) {
+                if (!AuthManager.isLogged()) {
                     rejected();
                     return;
                 }

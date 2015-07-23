@@ -8,7 +8,7 @@ define([
     'globals/State',
     'views/base/view',
     'fx-menu/start',
-    'fx-common/AuthManager',
+    'globals/AuthManager',
     'i18n!nls/site',
     'text!templates/site.hbs'
 ], function ($, Chaplin, _, C, E, State, View, Menu, AuthManager, i18nLabels, template) {
@@ -79,13 +79,14 @@ define([
                     hiddens: C.TOP_MENU_PUBLIC_MODE_HIDDEN_ITEMS
                 });
 
-            this.authManager = new AuthManager({
-                onLogin: function () {
+            this.authManager = AuthManager.init({
+                onLogin: _.bind(function () {
                     self.topMenu.refresh(menuConfAuth);
-                },
-                onLogout: function () {
+                }, this),
+                onLogout: _.bind(function () {
+                    Chaplin.mediator.publish(E.NOT_AUTHORIZED);
                     self.topMenu.refresh(menuConfPub);
-                }
+                }, this)
             });
 
             //Top Menu

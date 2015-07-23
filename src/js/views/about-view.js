@@ -29,7 +29,6 @@ define([
 
             View.prototype.attach.call(this, arguments);
 
-
             //update State
             amplify.publish(E.STATE_CHANGE, {menu: 'about'});
 
