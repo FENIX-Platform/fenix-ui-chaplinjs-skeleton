@@ -5969,7 +5969,6 @@ input[type="checkbox"]:checked + label {
   color: #666666; }
 
 .navbar-brand {
-  background-image: url("img/fenix-ico.svg");
   background-position: 0 3px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
