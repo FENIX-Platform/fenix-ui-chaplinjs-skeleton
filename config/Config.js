@@ -1,13 +1,9 @@
 /*global define*/
-define([
-        'jquery',
-        'config/submodules/config_base'
-    ],
-    function ($, config_base) {
+define(function () {
 
         'use strict';
 
-        return $.extend(true, {}, config_base, {
+        return {
 
             //Chaplin JS configuration
             CHAPLINJS_CONTROLLER_SUFFIX: '-controller',
@@ -17,7 +13,7 @@ define([
             CHAPLINJS_APPLICATION_TITLE: "FENIX Web App",
 
             //WDS configuration
-            DB_NAME: 'rlm',
+            DB_NAME: 'db_name',
             WDS_URL: 'http://hqlprfenixapp2.hq.un.fao.org:10100/wds-5.2.1/rest/crud',
             WDS_OUTPUT_TYPE: 'object',
             WDS_OLAP_OUTPUT_TYPE : 'array',
@@ -33,5 +29,5 @@ define([
 
             SECURITY_NOT_AUTHORIZED_REDIRECTION_LINK : "#home"
 
-        });
+        };
     });

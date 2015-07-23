@@ -2,14 +2,14 @@
 define([
     'views/base/view',
     'config/Config',
-    'config/Services',
+    'config/Queries',
     'config/Events',
     'text!templates/home/home.hbs',
     'i18n!nls/home',
     'handlebars',
     'fx-common/WDSClient',
     'amplify'
-], function (View, C, S, E, template, i18nLabels, Handlebars, WDSClient) {
+], function (View, C, Q, E, template, i18nLabels, Handlebars, WDSClient) {
 
     'use strict';
 
