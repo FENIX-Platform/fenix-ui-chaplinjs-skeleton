@@ -18,7 +18,7 @@ require([
 
     Compiler.resolve([commonConfig, Menu],
         {
-            placeholders: {"FENIX_CDN": "//fenixapps.fao.org/repository"},
+            placeholders: {"FENIX_CDN": "//fenixrepo.fao.org/cdn"},
 
             config: {
 
@@ -32,7 +32,7 @@ require([
 
                 // Specify the paths of vendor libraries
                 paths: {
-                    bootstrap: "//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min",
+                    bootstrap: "{FENIX_CDN}/js/bootstrap/3.3.4/js/bootstrap.min",
                     underscore: "{FENIX_CDN}/js/underscore/1.7.0/underscore.min",
                     backbone: "{FENIX_CDN}/js/backbone/1.1.2/backbone.min",
                     handlebars: "{FENIX_CDN}/js/handlebars/2.0.0/handlebars",
