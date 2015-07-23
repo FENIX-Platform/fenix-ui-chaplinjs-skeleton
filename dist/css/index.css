@@ -7020,7 +7020,7 @@ body {
 
 /* FAO Like Footer */
 footer.fao-footer {
-  background-color: #4fa3db;
+  background-color: #0d6cac;
   min-height: 160px;
   color: white;
   position: relative; }
@@ -7057,7 +7057,7 @@ footer.fao-footer {
     background-color: white; }
 
 .fao-footer-bottom {
-  padding-top: 15px;
+  padding: 15px;
   font: normal normal 300 11px/normal "Roboto"; }
   .fao-footer-bottom .pull-right a {
     color: white !important; }
