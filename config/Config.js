@@ -27,7 +27,11 @@ define(function () {
             TOP_MENU_AUTH_MODE_HIDDEN_ITEMS: ['login'],
             TOP_MENU_PUBLIC_MODE_HIDDEN_ITEMS :['protected', 'logout'],
 
-            SECURITY_NOT_AUTHORIZED_REDIRECTION_LINK : "home"
+            SECURITY_NOT_AUTHORIZED_REDIRECTION_LINK : "home",
+
+            SOCIAL_LINK_FACEBOOK : "https://facebook.com",
+            SOCIAL_LINK_TWITTER : "https://twitter.com",
+            SOCIAL_LINK_YOUTUBE : "https://youtube.com"
 
         };
     });

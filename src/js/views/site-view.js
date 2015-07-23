@@ -34,7 +34,7 @@ define([
         template: template,
 
         getTemplateData: function () {
-            return i18nLabels;
+            return $.extend(true, {}, C, i18nLabels);
         },
 
         attach: function () {
