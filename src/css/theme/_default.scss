@@ -1,4 +1,4 @@
-/* RLM - Base style File */
+/* Base style File */
 
 body{
 
@@ -6,10 +6,7 @@ body{
 
 }
 
-.rlm-logo-blue{
-  width: 117px;
-  height: 55px;
-}
+
 
 .truncate {
   min-width: 250px;
@@ -30,15 +27,15 @@ body{
   font-size: 12px;
   text-transform: uppercase;
   background-color: transparent;
-  border: 1px solid $rlm-buttons;
-  color: $rlm-buttons;
+  border: 1px solid $buttons;
+  color: $buttons;
   margin: 3px;
 
   &:hover{
-    background-color: $rlm-superlight-gray;
+    background-color: $superlight-gray;
     //border-color: transparent;
-    border: 1px solid $rlm-buttons;
-    color: $rlm-buttons;
+    border: 1px solid $buttons;
+    color: $buttons;
   }
 
 }
@@ -62,12 +59,12 @@ body{
 
 
 .btn-table-go, .btn-scores-go{
-  background-color: $rlm-buttons;
+  background-color: $buttons;
   color: white;
 
 
   &:hover, &:active, &:visited, &:focus{
-    background-color: $rlm-buttons;
+    background-color: $buttons;
     border-color: transparent;
     color: white;
   }

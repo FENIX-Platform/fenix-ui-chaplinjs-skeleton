@@ -6,8 +6,7 @@
 /* Fenix Utils*/
 @import '../../submodules/fenix-ui-common/css/fenix-style-no-variables';
 
-/* Fenix Components */
-//@import '../../submodules/fenix-ui-olap/css/fx-olap';
+
 
 /* Base */
 @import '../../src/css/theme/default';
@@ -15,19 +14,20 @@
 
 /* Components */
 @import '../../src/css/components/breadcrumbs';
-@import '../../src/css/components/footer';
+@import '../../src/css/components/fao-footer';
+@import '../../src/css/components/fao-topmenu';
 @import '../../src/css/components/form';
 @import '../../src/css/components/jstree';
 @import '../../src/css/components/submenu';
-@import '../../src/css/components/topmenu';
-@import '../../src/css/components/tabs';
+
+
+
 
 
 /* Third parties */
 
 /* Pages */
 @import '../../src/css/pages/home';
-@import '../../src/css/pages/download';
 
 
 

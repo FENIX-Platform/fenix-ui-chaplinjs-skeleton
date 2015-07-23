@@ -1,33 +1,33 @@
-/* RLM Footer */
+/* FAO Like Footer */
 
-footer.voh-footer{
+footer.fao-footer{
   background-color: $custom-color7;
   min-height: 160px;
   color: white;
   position: relative;
 
 
-  .rlm-logo-white{
-    width: 56px;
+  .fao-logo-white{
+    width: 130px;
     height: 26px;
     margin-bottom: 10px;
   }
 
 }
 
-.voh-footer-upper{
+.fao-footer-upper{
   min-height: 100px;
   background-color: $custom-color6;
   padding: 15px;
 }
 
-.voh-social-holder{
+.fao-social-holder{
   position: absolute;
   top: 0;
   right: 0;
 }
 
-.voh-footer-social{
+.fao-footer-social{
 
   list-style: none;
 
@@ -39,22 +39,22 @@ footer.voh-footer{
     cursor: pointer;
   }
 
-  .voh-footer-social-facebook{
+  .fao-footer-social-facebook{
       background-color: white;
   }
 
-  .voh-footer-social-youtube{
+  .fao-footer-social-youtube{
     background-color: white;
   }
 
-  .voh-footer-social-twitter{
+  .fao-footer-social-twitter{
     background-color: white;
   }
 
 
 }
 
-.voh-footer-bottom{
+.fao-footer-bottom{
   padding-top: 15px;
   font: $fx-text-h4;
 
