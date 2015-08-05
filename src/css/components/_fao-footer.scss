@@ -2,110 +2,26 @@
 
 footer.fao-footer{
   background-color: $custom-color6;
-  min-height: 160px;
+
   color: white;
-  position: relative;
 
 
-  .fao-logo-white{
-    width: 130px;
-    height: 26px;
+  li{
     margin-bottom: 10px;
   }
 
-}
-
-.fao-footer-upper{
-  min-height: 100px;
-  //background-color: $custom-color6; To change the top part of the footer, change this. The bottom one is inherited from the footer itself
-  padding: 15px;
-}
-
-.fao-social-holder{
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
-.fao-footer-social{
-
-  list-style: none;
-
-  li{
-    float: right;
-    margin: 0 6px;
-
-    @include fx-border-radius(100%);
-    cursor: pointer;
+  h4{
+    color: white;
+    font-size: 14px;
   }
 
-  .fao-footer-social-facebook{
-      background-color: white;
-  }
-
-  .fao-footer-social-youtube{
-    background-color: white;
-  }
-
-  .fao-footer-social-twitter{
-    background-color: white;
+  a:link,
+  a:visited,
+  a:hover,
+  a:focus,
+  a:active{
+    color: white;
   }
 
 
-}
-
-.fao-footer-bottom{
-  padding: 15px;
-  font: $fx-text-h4;
-
-  .pull-right{
-
-    a{
-      color: white !important;
-    }
-
-  }
-
-}
-
-
-.footer-menu-container{
-  ul{
-    list-style: none;
-    padding-left: 0;
-
-    li{
-      display: inline-block;
-      padding: 2px 15px;
-      position: relative;
-
-      text-transform: uppercase;
-
-      a{
-        color: white;
-        text-decoration: none;
-
-
-        &:hover, &:active, &:visited, &:focus{
-          text-decoration: none;
-        }
-
-      }
-
-      &:before{
-        content: '|';
-        color: white;
-        position: absolute;
-        left: 0;
-      }
-
-      &:first-child:before{
-        content: '';
-      }
-
-
-    }
-
-
-  }
 }

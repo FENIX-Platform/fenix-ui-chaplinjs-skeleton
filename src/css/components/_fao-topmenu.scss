@@ -1,31 +1,57 @@
 /* FAO Like Top Menu */
 
-.fao-header{
-  height: 105px;
+.container.fao-header{
+
+  height: 90px;
   position: relative;
 
-
-  .col-xs-12{
-    height: 105px;
-
-
-  }
+  background-color: $custom-color6;
 
     .fao-logo{
-      width: 412px;
-      height: 75px;
+      width: 300px;
+
+      height: auto;
       position: relative;
-      top: 50%;
-      left:-22px;
-      @include fx-transfor-me(translateY(-50%));
+      top: 5px;
     }
+
+  ul{
+    li{
+
+      border-right: 1px solid white;
+
+      &:last-child{
+        border-right: none;
+      }
+
+      a{
+        color: white;
+        &:hover{
+          text-decoration: none;
+
+        }
+
+      }
+
+
+    }
+  }
 
 }
 
 .topmenu{
-  .container-fluid {
-    padding: 0;
-  }
+  //.container-fluid {
+  //  padding: 0;
+  //}
+
+  padding-top: 30px;
+
+
+
+.navbar-collapse{
+   @include fx-gradient(rgba(255,255,255,1),rgba(239,239,239,1));
+  border: 1px solid $fenix-hr;
+}
 
 }
 
@@ -40,35 +66,58 @@
   margin-bottom: 0;
 }
 
-.navbar-default .navbar-nav > li > a{
-  color: white;
-  overflow: hidden;
-  padding-bottom: 10px;
-  padding-top: 10px;
+.navbar-default .navbar-nav > li{
 
-  &:before {
-    // Very cool menu effect //
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 5px;
-    background-color: $fx-cool-blue;
-    left: 0;
-    bottom: -5px;
-    pointer-events: none;
-  }
+  &.home-menu-item{
 
-  &:hover {
-    &:before {
-      @include animate;
-      bottom:0;
+    width: $host-menu-height;
+
+      &.active{
+
+        a{
+          background-image: url(../../src/images/home-h.png);
+        }
+
+      }
+
+
+    a{
+      //@include aspect-ratio(1, 1);
+      //background-color: red;
+
+      background-image: url(../../src/images/home.png);
+      background-size: 20px 16px;
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
     }
 
+
   }
+
+  > a{
+    //color: white;
+    overflow: hidden;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+
+
+
+    &:hover {
+
+      background-color: white;
+    }
+  }
+
 }
 
+
+
+
+
 .navbar-default {
-  @include fx-gradient(#0e6da5, #0d5399);
+  background-color: white;
+ // @include fx-gradient(#0e6da5, #0d5399);
   //  border: none;
 
 //  li#home{
@@ -79,23 +128,12 @@
 
   .navbar-nav{
     > li {
-      // height: 50px !important;
 
-      border-right: 1px solid white;
+
+      border-right: 1px solid $fenix-hr;
       > a{
-        text-transform: uppercase;
-        height: $host-menu-height;
-        //      padding: 17px 15px 34px 15px;
-        //      line-height: 20px;
-        //      height: 50px !important;
-        //      display: inline-block !important;
-        //      border-top: 0px !important;
-        //      border-color: $custom-color4 !important;
-        //      border-bottom-color: red;
-        //      border-bottom: 0px;
-        //      border-right: 1px solid $custom-color4;
-        //      @include fx-transfor-me(translateY(-1px));
 
+        height: $host-menu-height;
 
       }
     }
@@ -125,20 +163,17 @@
 
 /* Over menu */
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
-  color:white;
+  color:$fenix-text;
 }
 
 /* Active - hover and normal state of menu btn */
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     border-bottom: 0;
-    background-color: #003a45;
-    color: white;
+    background-color: white;
+  color:$custom-color8;
 }
 
 
-.navbar-header{
-  background-color: $fx-cool-blue;
-}
 
 .navbar-default .navbar-toggle{
   border-color: transparent;

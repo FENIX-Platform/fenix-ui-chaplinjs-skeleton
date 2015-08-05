@@ -2,11 +2,12 @@
   "items": [
     {
       "attrs": {
-        "id": "home"
+        "id": "home",
+        "class":"home-menu-item"
       },
       "target": "#home",
       "label": {
-        "EN": "Home"
+        "EN": ""
       }
     },
     {
