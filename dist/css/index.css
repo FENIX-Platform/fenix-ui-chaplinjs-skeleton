@@ -4921,57 +4921,57 @@ button_new_2:before {
 /* Roboto Regular */
 @font-face {
   font-family: 'Roboto';
-  src: url("http://fenixapps.fao.org/repository/fenix-ui-common/css/fenix-ui-common/css/fonts/roboto/sources/roboto-reg/roboto_regular/Roboto-Regular-webfont.eot");
-  src: url("http://fenixapps.fao.org/repository/fenix-ui-common/css/fenix-ui-common/css/fonts/roboto/sources/roboto-reg/roboto_regular/Roboto-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("http://fenixapps.fao.org/repository/fenix-ui-common/css/fonts/roboto/sources/roboto-reg/roboto_regular/Roboto-Regular-webfont.woff") format("woff"), url("http://fenixapps.fao.org/repository/fenix-ui-common/css/fonts/roboto/sources/roboto-reg/roboto_regular/Roboto-Regular-webfont.ttf") format("truetype"), url("http://fenixapps.fao.org/repository/fenix-ui-common/css/fonts/roboto/sources/roboto-reg/roboto_regular/Roboto-Regular-webfont.svg#RobotoRegular") format("svg");
+  src: url("http://fenixrepo.fao.org/cdn/css/fenix-ui-common/css/fonts/roboto/sources/roboto-reg/roboto_regular/Roboto-Regular-webfont.eot");
+  src: url("http://fenixrepo.fao.org/cdn/css/fenix-ui-common/css/fonts/roboto/sources/roboto-reg/roboto_regular/Roboto-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("http://fenixrepo.fao.org/cdn/css/fenix-ui-common/css/fonts/roboto/sources/roboto-reg/roboto_regular/Roboto-Regular-webfont.woff") format("woff"), url("http://fenixrepo.fao.org/cdn/css/fenix-ui-common/css/fonts/roboto/sources/roboto-reg/roboto_regular/Roboto-Regular-webfont.ttf") format("truetype"), url("http://fenixrepo.fao.org/cdn/css/fenix-ui-common/css/fonts/roboto/sources/roboto-reg/roboto_regular/Roboto-Regular-webfont.svg#RobotoRegular") format("svg");
   font-weight: 400;
   font-style: normal; }
 @font-face {
   font-family: 'Roboto';
-  src: url("http://fenixapps.fao.org/repository/fenix-ui-common/css/fonts/roboto/sources/roboto-reg/roboto_bold/Roboto-Bold-webfont.eot");
-  src: url("http://fenixapps.fao.org/repository/fenix-ui-common/css/fonts/roboto/sources/roboto-reg/roboto_bold/Roboto-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("http://fenixapps.fao.org/repository/fenix-ui-common/css/fonts/roboto/sources/roboto-reg/roboto_bold/Roboto-Bold-webfont.woff") format("woff"), url("http://fenixapps.fao.org/repository/fenix-ui-common/css/fonts/roboto/sources/roboto-reg/roboto_bold/Roboto-Bold-webfont.ttf") format("truetype"), url("http://fenixapps.fao.org/repository/fenix-ui-common/css/fonts/roboto/sources/roboto-reg/roboto_bold/Roboto-Bold-webfont.svg#RobotoBold") format("svg");
+  src: url("http://fenixrepo.fao.org/cdn/css/fenix-ui-common/css/fonts/roboto/sources/roboto-reg/roboto_bold/Roboto-Bold-webfont.eot");
+  src: url("http://fenixrepo.fao.org/cdn/css/fenix-ui-common/css/fonts/roboto/sources/roboto-reg/roboto_bold/Roboto-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("http://fenixrepo.fao.org/cdn/css/fenix-ui-common/css/fonts/roboto/sources/roboto-reg/roboto_bold/Roboto-Bold-webfont.woff") format("woff"), url("http://fenixrepo.fao.org/cdn/css/fenix-ui-common/css/fonts/roboto/sources/roboto-reg/roboto_bold/Roboto-Bold-webfont.ttf") format("truetype"), url("http://fenixrepo.fao.org/cdn/css/fenix-ui-common/css/fonts/roboto/sources/roboto-reg/roboto_bold/Roboto-Bold-webfont.svg#RobotoBold") format("svg");
   font-weight: 700;
   font-style: normal; }
 @font-face {
   font-family: 'Roboto';
-  src: url("http://fenixapps.fao.org/repository/fenix-ui-common/css/fonts/roboto/sources/roboto-reg/roboto_thin/Roboto-Thin-webfont.eot");
-  src: url("http://fenixapps.fao.org/repository/fenix-ui-common/css/fonts/roboto/sources/roboto-reg/roboto_thin/Roboto-Thin-webfont.eot?#iefix") format("embedded-opentype"), url("http://fenixapps.fao.org/repository/fenix-ui-common/css/fonts/roboto/sources/roboto-reg/roboto_thin/Roboto-Thin-webfont.woff") format("woff"), url("http://fenixapps.fao.org/repository/fenix-ui-common/css/fonts/roboto/sources/roboto-reg/roboto_thin/Roboto-Thin-webfont.ttf") format("truetype"), url("http://fenixapps.fao.org/repository/fenix-ui-common/css/fonts/roboto/sources/roboto-reg/roboto_thin/Roboto-Thin-webfont.svg#RobotoThin") format("svg");
+  src: url("http://fenixrepo.fao.org/cdn/css/fenix-ui-common/css/fonts/roboto/sources/roboto-reg/roboto_thin/Roboto-Thin-webfont.eot");
+  src: url("http://fenixrepo.fao.org/cdn/css/fenix-ui-common/css/fonts/roboto/sources/roboto-reg/roboto_thin/Roboto-Thin-webfont.eot?#iefix") format("embedded-opentype"), url("http://fenixrepo.fao.org/cdn/css/fenix-ui-common/css/fonts/roboto/sources/roboto-reg/roboto_thin/Roboto-Thin-webfont.woff") format("woff"), url("http://fenixrepo.fao.org/cdn/css/fenix-ui-common/css/fonts/roboto/sources/roboto-reg/roboto_thin/Roboto-Thin-webfont.ttf") format("truetype"), url("http://fenixrepo.fao.org/cdn/css/fenix-ui-common/css/fonts/roboto/sources/roboto-reg/roboto_thin/Roboto-Thin-webfont.svg#RobotoThin") format("svg");
   font-weight: 100;
   font-style: normal; }
 @font-face {
   font-family: 'Roboto';
-  src: url("http://fenixapps.fao.org/repository/fenix-ui-common/css/fonts/roboto/sources/roboto-reg/roboto_light/Roboto-Light-webfont.eot");
-  src: url("http://fenixapps.fao.org/repository/fenix-ui-common/css/fonts/roboto/sources/roboto-reg/roboto_light/Roboto-Light-webfont.eot?#iefix") format("embedded-opentype"), url("http://fenixapps.fao.org/repository/fenix-ui-common/css/fonts/roboto/sources/roboto-reg/roboto_light/Roboto-Light-webfont.woff") format("woff"), url("http://fenixapps.fao.org/repository/fenix-ui-common/css/fonts/roboto/sources/roboto-reg/roboto_light/Roboto-Light-webfont.ttf") format("truetype"), url("http://fenixapps.fao.org/repository/fenix-ui-common/css/fonts/roboto/sources/roboto-reg/roboto_light/Roboto-Light-webfont.svg#RobotoLight") format("svg");
+  src: url("http://fenixrepo.fao.org/cdn/css/fenix-ui-common/css/fonts/roboto/sources/roboto-reg/roboto_light/Roboto-Light-webfont.eot");
+  src: url("http://fenixrepo.fao.org/cdn/css/fenix-ui-common/css/fonts/roboto/sources/roboto-reg/roboto_light/Roboto-Light-webfont.eot?#iefix") format("embedded-opentype"), url("http://fenixrepo.fao.org/cdn/css/fenix-ui-common/css/fonts/roboto/sources/roboto-reg/roboto_light/Roboto-Light-webfont.woff") format("woff"), url("http://fenixrepo.fao.org/cdn/css/fenix-ui-common/css/fonts/roboto/sources/roboto-reg/roboto_light/Roboto-Light-webfont.ttf") format("truetype"), url("http://fenixrepo.fao.org/cdn/css/fenix-ui-common/css/fonts/roboto/sources/roboto-reg/roboto_light/Roboto-Light-webfont.svg#RobotoLight") format("svg");
   font-weight: 300;
   font-style: normal; }
 @font-face {
   font-family: 'Roboto';
-  src: url("http://fenixapps.fao.org/repository/fenix-ui-common/css/fonts/roboto/sources/roboto-reg/roboto_medium/Roboto-Medium-webfont.eot");
-  src: url("http://fenixapps.fao.org/repository/fenix-ui-common/css/fonts/roboto/sources/roboto-reg/roboto_medium/Roboto-Medium-webfont.eot?#iefix") format("embedded-opentype"), url("http://fenixapps.fao.org/repository/fenix-ui-common/css/fonts/roboto/sources/roboto-reg/roboto_medium/Roboto-Medium-webfont.woff") format("woff"), url("http://fenixapps.fao.org/repository/fenix-ui-common/css/fonts/roboto/sources/roboto-reg/roboto_medium/Roboto-Medium-webfont.ttf") format("truetype"), url("http://fenixapps.fao.org/repository/fenix-ui-common/css/fonts/roboto/sources/roboto-reg/roboto_medium/Roboto-Medium-webfont.svg#RobotoMedium") format("svg");
+  src: url("http://fenixrepo.fao.org/cdn/css/fenix-ui-common/css/fonts/roboto/sources/roboto-reg/roboto_medium/Roboto-Medium-webfont.eot");
+  src: url("http://fenixrepo.fao.org/cdn/css/fenix-ui-common/css/fonts/roboto/sources/roboto-reg/roboto_medium/Roboto-Medium-webfont.eot?#iefix") format("embedded-opentype"), url("http://fenixrepo.fao.org/cdn/css/fenix-ui-common/css/fonts/roboto/sources/roboto-reg/roboto_medium/Roboto-Medium-webfont.woff") format("woff"), url("http://fenixrepo.fao.org/cdn/css/fenix-ui-common/css/fonts/roboto/sources/roboto-reg/roboto_medium/Roboto-Medium-webfont.ttf") format("truetype"), url("http://fenixrepo.fao.org/cdn/css/fenix-ui-common/css/fonts/roboto/sources/roboto-reg/roboto_medium/Roboto-Medium-webfont.svg#RobotoMedium") format("svg");
   font-weight: 500;
   font-style: normal; }
 @font-face {
   font-family: 'Roboto';
-  src: url("http://fenixapps.fao.org/repository/fenix-ui-common/css/fonts/roboto/sources/roboto-reg/roboto_black/Roboto-Black-webfont.eot");
-  src: url("http://fenixapps.fao.org/repository/fenix-ui-common/css/fonts/roboto/sources/roboto-reg/roboto_black/Roboto-Black-webfont.eot?#iefix") format("embedded-opentype"), url("http://fenixapps.fao.org/repository/fenix-ui-common/css/fonts/roboto/sources/roboto-reg/roboto_black/Roboto-Black-webfont.woff") format("woff"), url("http://fenixapps.fao.org/repository/fenix-ui-common/css/fonts/roboto/sources/roboto-reg/roboto_black/Roboto-Black-webfont.ttf") format("truetype"), url("http://fenixapps.fao.org/repository/fenix-ui-common/css/fonts/roboto/sources/roboto-reg/roboto_black/Roboto-Black-webfont.svg#RobotoBold") format("svg");
+  src: url("http://fenixrepo.fao.org/cdn/css/fenix-ui-common/css/fonts/roboto/sources/roboto-reg/roboto_black/Roboto-Black-webfont.eot");
+  src: url("http://fenixrepo.fao.org/cdn/css/fenix-ui-common/css/fonts/roboto/sources/roboto-reg/roboto_black/Roboto-Black-webfont.eot?#iefix") format("embedded-opentype"), url("http://fenixrepo.fao.org/cdn/css/fenix-ui-common/css/fonts/roboto/sources/roboto-reg/roboto_black/Roboto-Black-webfont.woff") format("woff"), url("http://fenixrepo.fao.org/cdn/css/fenix-ui-common/css/fonts/roboto/sources/roboto-reg/roboto_black/Roboto-Black-webfont.ttf") format("truetype"), url("http://fenixrepo.fao.org/cdn/css/fenix-ui-common/css/fonts/roboto/sources/roboto-reg/roboto_black/Roboto-Black-webfont.svg#RobotoBold") format("svg");
   font-weight: 900;
   font-style: normal; }
 /* Roboto Condensed */
 @font-face {
   font-family: 'Roboto Condensed';
-  src: url("http://fenixapps.fao.org/repository/fenix-ui-common/css/fonts/roboto/sources/roboto-condensed/roboto_condensed/RobotoCondensed-Regular-webfont.eot");
-  src: url("http://fenixapps.fao.org/repository/fenix-ui-common/css/fonts/roboto/sources/roboto-condensed/roboto_condensed/RobotoCondensed-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("http://fenixapps.fao.org/repository/fenix-ui-common/css/fonts/roboto/sources/roboto-condensed/roboto_condensed/RobotoCondensed-Regular-webfont.woff") format("woff"), url("http://fenixapps.fao.org/repository/fenix-ui-common/css/fonts/roboto/sources/roboto-condensed/roboto_condensed/RobotoCondensed-Regular-webfont.ttf") format("truetype"), url("http://fenixapps.fao.org/repository/fenix-ui-common/css/fonts/roboto/sources/roboto-condensed/roboto_condensed/RobotoCondensed-Regular-webfont.svg#RobotoRegular") format("svg");
+  src: url("http://fenixrepo.fao.org/cdn/css/fenix-ui-common/css/fonts/roboto/sources/roboto-condensed/roboto_condensed/RobotoCondensed-Regular-webfont.eot");
+  src: url("http://fenixrepo.fao.org/cdn/css/fenix-ui-common/css/fonts/roboto/sources/roboto-condensed/roboto_condensed/RobotoCondensed-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("http://fenixrepo.fao.org/cdn/css/fenix-ui-common/css/fonts/roboto/sources/roboto-condensed/roboto_condensed/RobotoCondensed-Regular-webfont.woff") format("woff"), url("http://fenixrepo.fao.org/cdn/css/fenix-ui-common/css/fonts/roboto/sources/roboto-condensed/roboto_condensed/RobotoCondensed-Regular-webfont.ttf") format("truetype"), url("http://fenixrepo.fao.org/cdn/css/fenix-ui-common/css/fonts/roboto/sources/roboto-condensed/roboto_condensed/RobotoCondensed-Regular-webfont.svg#RobotoRegular") format("svg");
   font-weight: 400;
   font-style: normal; }
 @font-face {
   font-family: 'Roboto Condensed';
-  src: url("http://fenixapps.fao.org/repository/fenix-ui-common/css/fonts/roboto/sources/roboto-condensed/roboto_lightcondensed/RobotoCondensed-Light-webfont.eot");
-  src: url("http://fenixapps.fao.org/repository/fenix-ui-common/css/fonts/roboto/sources/roboto-condensed/roboto_lightcondensed/RobotoCondensed-Light-webfont.eot?#iefix") format("embedded-opentype"), url("http://fenixapps.fao.org/repository/fenix-ui-common/css/fonts/roboto/sources/roboto-condensed/roboto_lightcondensed/RobotoCondensed-Light-webfont.woff") format("woff"), url("http://fenixapps.fao.org/repository/fenix-ui-common/css/fonts/roboto/sources/roboto-condensed/roboto_lightcondensed/RobotoCondensed-Light-webfont.ttf") format("truetype"), url("http://fenixapps.fao.org/repository/fenix-ui-common/css/fonts/roboto/sources/roboto-condensed/roboto_lightcondensed/RobotoCondensed-Light-webfont.svg#RobotoRegular") format("svg");
+  src: url("http://fenixrepo.fao.org/cdn/css/fenix-ui-common/css/fonts/roboto/sources/roboto-condensed/roboto_lightcondensed/RobotoCondensed-Light-webfont.eot");
+  src: url("http://fenixrepo.fao.org/cdn/css/fenix-ui-common/css/fonts/roboto/sources/roboto-condensed/roboto_lightcondensed/RobotoCondensed-Light-webfont.eot?#iefix") format("embedded-opentype"), url("http://fenixrepo.fao.org/cdn/css/fenix-ui-common/css/fonts/roboto/sources/roboto-condensed/roboto_lightcondensed/RobotoCondensed-Light-webfont.woff") format("woff"), url("http://fenixrepo.fao.org/cdn/css/fenix-ui-common/css/fonts/roboto/sources/roboto-condensed/roboto_lightcondensed/RobotoCondensed-Light-webfont.ttf") format("truetype"), url("http://fenixrepo.fao.org/cdn/css/fenix-ui-common/css/fonts/roboto/sources/roboto-condensed/roboto_lightcondensed/RobotoCondensed-Light-webfont.svg#RobotoRegular") format("svg");
   font-weight: 300;
   font-style: normal; }
 @font-face {
   font-family: 'Roboto Condensed';
-  src: url("http://fenixapps.fao.org/repository/fenix-ui-common/css/fonts/roboto/sources/roboto-condensed/roboto_boldcondensed/RobotoCondensed-Bold-webfont.eot");
-  src: url("http://fenixapps.fao.org/repository/fenix-ui-common/css/fonts/roboto/sources/roboto-condensed/roboto_boldcondensed/RobotoCondensed-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("http://fenixapps.fao.org/repository/fenix-ui-common/css/fonts/roboto/sources/roboto-condensed/roboto_boldcondensed/RobotoCondensed-Bold-webfont.woff") format("woff"), url("http://fenixapps.fao.org/repository/fenix-ui-common/css/fonts/roboto/sources/roboto-condensed/roboto_boldcondensed/RobotoCondensed-Bold-webfont.ttf") format("truetype"), url("http://fenixapps.fao.org/repository/fenix-ui-common/css/fonts/roboto/sources/roboto-condensed/roboto_boldcondensed/RobotoCondensed-Bold-webfont.svg#RobotoRegular") format("svg");
+  src: url("http://fenixrepo.fao.org/cdn/css/fenix-ui-common/css/fonts/roboto/sources/roboto-condensed/roboto_boldcondensed/RobotoCondensed-Bold-webfont.eot");
+  src: url("http://fenixrepo.fao.org/cdn/css/fenix-ui-common/css/fonts/roboto/sources/roboto-condensed/roboto_boldcondensed/RobotoCondensed-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("http://fenixrepo.fao.org/cdn/css/fenix-ui-common/css/fonts/roboto/sources/roboto-condensed/roboto_boldcondensed/RobotoCondensed-Bold-webfont.woff") format("woff"), url("http://fenixrepo.fao.org/cdn/css/fenix-ui-common/css/fonts/roboto/sources/roboto-condensed/roboto_boldcondensed/RobotoCondensed-Bold-webfont.ttf") format("truetype"), url("http://fenixrepo.fao.org/cdn/css/fenix-ui-common/css/fonts/roboto/sources/roboto-condensed/roboto_boldcondensed/RobotoCondensed-Bold-webfont.svg#RobotoRegular") format("svg");
   font-weight: 700;
   font-style: normal; }
 /* Font Awesome */
@@ -5957,36 +5957,6 @@ input[type="checkbox"]:checked + label {
       left: 0;
       width: calc(100% - 10px); }
 
-/* Fenix - Top Menu Component */
-.navbar ul {
-  list-style: outside none none;
-  padding-left: 0; }
-
-.navbar .container {
-  position: relative; }
-
-.nav-pills li a {
-  color: #666666; }
-
-.navbar-brand {
-  background-position: 0 3px;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  display: block; }
-
-.navbar .lang_picker {
-  text-transform: uppercase; }
-
-.navbar .lang_picker li {
-  cursor: pointer; }
-
-.navbar .lang_picker li a, .navbar .lang_picker li a:hover {
-  text-align: center;
-  text-decoration: none; }
-
-.navbar .lang_picker li:last-child {
-  border-right: medium none; }
-
 /* Fenix - Sidebar Component */
 .bs-docs-sidebar.affix {
   position: static; }
@@ -6195,6 +6165,100 @@ input[type="checkbox"]:checked + label {
     padding: 0; }
 .fx-tabs li {
   margin: 12px 0; }
+
+/* Fenix - Top Menu Component */
+.navbar ul {
+  list-style: outside none none;
+  padding-left: 0; }
+
+.navbar .container {
+  position: relative; }
+
+.nav-pills li a {
+  color: #666666; }
+
+.navbar-brand {
+  background-position: 0 3px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: block; }
+
+.navbar .lang_picker {
+  text-transform: uppercase; }
+
+.navbar .lang_picker li {
+  cursor: pointer; }
+
+.navbar .lang_picker li a, .navbar .lang_picker li a:hover {
+  text-align: center;
+  text-decoration: none; }
+
+.navbar .lang_picker li:last-child {
+  border-right: medium none; }
+
+/* Fenix Upload Component */
+.fx-uploader-container .fx-uploader-header {
+  padding: 10px 0;
+  border-bottom: 1px solid #d2d0d0; }
+.fx-uploader-container #fx-uploader-input {
+  display: none; }
+.fx-uploader-container .fx-widget-icons {
+  cursor: pointer; }
+
+.fx-uploader-item {
+  margin-top: 15px;
+  position: relative; }
+  .fx-uploader-item .uploader-item-header {
+    background-color: #f1f1f1;
+    padding: 15px; }
+  .fx-uploader-item .item-title {
+    display: inline-block;
+    font-weight: 300;
+    font-size: 16px;
+    margin-top: 0; }
+  .fx-uploader-item .file-type {
+    position: relative;
+    top: -2px;
+    left: 5px;
+    text-transform: uppercase;
+    font-weight: 300; }
+  .fx-uploader-item .file-description {
+    color: #999999; }
+  .fx-uploader-item .fx-uploader-item-remove {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: pointer; }
+  .fx-uploader-item .fx-uploader-item-list-container {
+    height: 20px;
+    overflow: hidden;
+    padding-bottom: 15px;
+    background-color: #f1f1f1;
+    border-top: 1px solid #d2d0d0;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s; }
+    .fx-uploader-item .fx-uploader-item-list-container[data-status="error"] {
+      background-color: red;
+      color: white; }
+    .fx-uploader-item .fx-uploader-item-list-container[data-status="done"] {
+      background-color: green;
+      color: white; }
+    .fx-uploader-item .fx-uploader-item-list-container ul {
+      position: relative;
+      -webkit-transition: all 0.3s ease 0s;
+      -moz-transition: all 0.3s ease 0s;
+      -ms-transition: all 0.3s ease 0s;
+      -o-transition: all 0.3s ease 0s;
+      transition: all 0.3s ease 0s; }
+      .fx-uploader-item .fx-uploader-item-list-container ul li {
+        height: 20px;
+        padding: 0 15px;
+        line-height: 20px; }
+        .fx-uploader-item .fx-uploader-item-list-container ul li .step-icon {
+          margin-right: 5px; }
 
 /* Fenix - Well Component */
 .well {
