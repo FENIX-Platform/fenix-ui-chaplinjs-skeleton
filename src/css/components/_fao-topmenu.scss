@@ -1,332 +1,224 @@
 /* FAO Like Top Menu */
 
-.container.fao-header{
+/* Bootstrap reset */
+
+.navbar-brand {
+  display: none;
+}
+
+/* Item on the right fix */
+.fx-menu {
+
+  .navbar-nav.navbar-right {
+
+    margin: 0;
+
+     li {
+
+
+
+      a{
+        border-right: 0;
+      }
+    }
+  }
+}
+
+/* Header */
+
+.container.fao-header {
 
   height: 90px;
   position: relative;
 
   background-color: $custom-color6;
 
-    .fao-logo{
-      width: 300px;
+  .fao-logo {
+    width: 300px;
 
-      height: auto;
-      position: relative;
-      top: 5px;
-    }
+    height: auto;
+    position: relative;
+    top: 5px;
+  }
 
-  ul{
-    li{
+  ul {
+    li {
 
       border-right: 1px solid white;
 
-      &:last-child{
+      &:last-child {
         border-right: none;
       }
 
-      a{
+      a {
         color: white;
-        &:hover{
+        &:hover {
           text-decoration: none;
 
         }
 
       }
 
-
     }
   }
 
 }
 
-.topmenu{
-  //.container-fluid {
-  //  padding: 0;
-  //}
+/* Menu */
+
+.topmenu {
 
   padding-top: 30px;
 
-
-
-.navbar-collapse{
-   @include fx-gradient(rgba(255,255,255,1),rgba(239,239,239,1));
-  border: 1px solid $fenix-hr;
+  .navbar-collapse {
+    @include fx-gradient(rgba(255, 255, 255, 1), rgba(239, 239, 239, 1));
+    border: 1px solid $fenix-hr;
+  }
 }
 
-}
-
-.topmenu-buttons-holder{
+.topmenu-buttons-holder {
   padding-left: 0;
-  padding-right:0;
+  padding-right: 0;
 }
 
-.navbar{
-  //  min-height: 40px;
+
+
+.navbar-default{
+  background-color: transparent;
   min-height: $host-menu-height; //It has to be defined - Very important Bootstrap override
   margin-bottom: 0;
-}
 
-.navbar-default .navbar-nav > li{
+  .navbar-nav > li {
 
-  &.home-menu-item{
 
-    width: $host-menu-height;
+    > a {
+      height: $host-menu-height;
+      overflow: hidden;
+      padding-bottom: 10px;
+      padding-top: 10px;
+      border-right: 1px solid $fenix-hr;
 
-      &.active{
+      &:hover {
+        color: $custom-color8 !important;
+        background-color: white;
 
-        a{
+      }
+
+
+
+    }
+
+    &.active {
+
+      a ,
+      a:link,
+      a:visited,
+      a:hover,
+      a:focus,
+      a:active {
+        border-bottom-color: transparent;
+        color: $custom-color8 !important;
+      }
+
+    }
+
+
+    /* Home icon as fao website */
+    &.home-menu-item {
+
+      width: $host-menu-height;
+
+      &.active {
+
+        a {
           background-image: url(../../src/images/home-h.png);
         }
 
       }
 
+      a {
 
-    a{
-      //@include aspect-ratio(1, 1);
-      //background-color: red;
-
-      background-image: url(../../src/images/home.png);
-      background-size: 20px 16px;
-      background-position: 50% 50%;
-      background-repeat: no-repeat;
-    }
-
-
-  }
-
-  > a{
-    //color: white;
-    overflow: hidden;
-    padding-bottom: 10px;
-    padding-top: 10px;
-
-
-
-
-    &:hover {
-
-      background-color: white;
-    }
-  }
-
-}
-
-
-
-
-
-.navbar-default {
-  background-color: white;
- // @include fx-gradient(#0e6da5, #0d5399);
-  //  border: none;
-
-//  li#home{
-//    display: none;
-//
-//  }
-
-
-  .navbar-nav{
-    > li {
-
-
-      border-right: 1px solid $fenix-hr;
-      > a{
-
-        height: $host-menu-height;
-
+        background-image: url(../../src/images/home.png);
+        background-size: 20px 16px;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
       }
+
     }
+
+
   }
 
 
 
 }
 
+/* Open/Close button in mobile mode */
+.navbar-default .navbar-toggle {
 
+  &:link,
+  &:visited,
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: transparent;
+  }
 
-
-.navbar-brand{
-  //  background-size: 40px 40px !important;
-  height: $host-menu-height;
-  width: $host-menu-height;
-  background-size: 80% 80%;
-  background-repeat: no-repeat;
-  background-color: white;
-  background-position: center center;
-  display: none;
-}
-
-.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus{
-  background-color: white;
-}
-
-/* Over menu */
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
-  color:$fenix-text;
-}
-
-/* Active - hover and normal state of menu btn */
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-    border-bottom: 0;
-    background-color: white;
-  color:$custom-color8;
-}
-
-
-
-.navbar-default .navbar-toggle{
   border-color: transparent;
 }
 
-.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
-  background-color: transparent;
-}
 
-
-
-
-.navbar-collapse{
+.navbar-collapse {
   border-top: 0;
-  .navbar-nav{
+  .navbar-nav {
     margin-top: 0;
-
-    > li{
-
-
-      > a{
-
-      }
-    }
-
-    .dropdown.open{
-      background-color: $fenix-light-gray;
-    }
-
   }
 
-
-}
-
-.container {
-  background-color: white;
 }
 
 
-
-
-
-
-.navbar .container {
-  background-color: transparent;
-}
-
-
-
-.fx-menu{
-  .navbar-right{
-
-    margin: 0;
-
-    > li {
-      border-right: 0;
-      //border-left: 1px solid white;
-
-    }
- }
-}
-
-#login {
-  position: relative;
-  right:15px;
-
-
-  a{
-    height: auto;
-    padding: 0;
-    position: relative;
-    text-align: center;
-    //top: 50%;
-    display: inline-block;
-    width: 100%;
-    top: 10px;
-    cursor: pointer;
-    //@include fx-transfor-me(translateY(-50%));
-
-    &:before{
-      display: none;
-    }
-  }
-    span{
-
-      -webkit-font-smoothing: auto;
-      -moz-osx-font-smoothing: auto;
-
-  }
-}
-
-#logout {
-  position: relative;
-  right:15px;
-
-
-  a{
-    height: auto;
-    padding: 0;
-    position: relative;
-    text-align: center;
-    //top: 50%;
-    display: inline-block;
-    width: 100%;
-    top: 10px;
-    cursor: pointer;
-    //@include fx-transfor-me(translateY(-50%));
-
-    &:before{
-      display: none;
-    }
-  }
-  span{
-
-    -webkit-font-smoothing: auto;
-    -moz-osx-font-smoothing: auto;
-
-  }
-}
 
 /*//////////////////////////////////////////// Navbar Media queries */
 
+/* Ipad */
 @media (min-width: 768px) and (max-width: 990px) {
 
+}
+
+/* Iphone */
+
+@media (max-width: 767px) {
+
+  .container.fao-header {
 
 
-    .navbar-nav.fx-ul{
-    >li{
 
-      >a{
-        //font-size: 80%;
-        //padding: 15px 7px;
+    height: 140px;
 
+
+    .fao-header-menu{
+
+      margin-top: 15px;
+      text-align: center;
+      line-height: 20px;
+
+
+      ul {
+
+        li{
+
+
+          a{
+            /* Expand the item space in the mobile version */
+            margin: 5px;
+          }
+
+        }
 
       }
 
     }
-  }
-}
 
-@media (max-width: 767px) {
-
-
-  .navbar-default .navbar-nav > li > a {
-
-    &:before {
-      display: none;
-    }
-
-  }
-
-  #login {
-    left: 0px;
   }
 
 }
