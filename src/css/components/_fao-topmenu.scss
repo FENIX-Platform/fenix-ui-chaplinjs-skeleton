@@ -98,8 +98,9 @@
       padding-top: 10px;
       border-right: 1px solid $fenix-hr;
 
-      &:hover {
-        color: $custom-color8 !important;
+      &:hover,
+      &:focus {
+        color: $custom-color8;
         background-color: white;
 
       }
@@ -117,7 +118,7 @@
       a:focus,
       a:active {
         border-bottom-color: transparent;
-        color: $custom-color8 !important;
+        color: $custom-color8 ;
       }
 
     }
@@ -127,6 +128,7 @@
     &.home-menu-item {
 
       width: $host-menu-height;
+
 
       &.active {
 
@@ -142,6 +144,13 @@
         background-size: 20px 16px;
         background-position: 50% 50%;
         background-repeat: no-repeat;
+
+
+        &:hover,
+        &:focus{
+          background-image: url(../../src/images/home-h.png);
+        }
+
       }
 
     }
@@ -192,7 +201,6 @@
   .container.fao-header {
 
 
-
     height: 140px;
 
 
@@ -220,5 +228,69 @@
     }
 
   }
+
+  .topmenu {
+
+    padding-top: 30px;
+
+    .navbar-collapse {
+      background: none;
+      background-color: white;
+      border-color:transparent;
+    }
+  }
+
+
+
+  .navbar-default{
+
+
+    .navbar-nav > li {
+
+
+      > a {
+
+        border-right-color: transparent;
+
+
+
+      }
+
+      &.active {
+
+        a ,
+        a:link,
+        a:visited,
+        a:hover,
+        a:focus,
+        a:active {
+          border-bottom-color: transparent;
+          color: $custom-color8 !important;
+        }
+
+      }
+
+
+      /* Home icon as fao website */
+      &.home-menu-item {
+
+        width: 100%;
+
+
+        a {
+          background-position: 15px 50%;
+        }
+      }
+
+
+    }
+
+
+
+  }
+
+
+
+  /* End of the iPhone media query*/
 
 }

@@ -2,7 +2,8 @@
 
 footer.fao-footer{
   background-color: $custom-color6;
-
+  padding-top: 15px;
+  padding-bottom: 15px;
   color: white;
 
 
@@ -23,5 +24,46 @@ footer.fao-footer{
     color: white;
   }
 
+  .device-image{
+    padding-right: 10px;
+    float: left;
+  }
+
+
+}
+
+
+
+/*//////////////////////////////////////////// Navbar Media queries */
+
+/* Ipad */
+@media (min-width: 768px) and (max-width: 990px) {
+
+  footer.fao-footer {
+
+    .device-image {
+      margin-bottom: 10px;
+    }
+  }
+
+}
+
+/* Iphone */
+
+@media (max-width: 767px) {
+
+
+  footer.fao-footer{
+    text-align: center;
+
+
+    .device-image {
+      margin-bottom: 10px;
+      float: none;
+    }
+
+  }
+
+  /* End of the iPhone media query*/
 
 }

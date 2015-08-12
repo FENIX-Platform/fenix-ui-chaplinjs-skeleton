@@ -7087,6 +7087,8 @@ body {
 /* FAO Like Footer */
 footer.fao-footer {
   background-color: #0d6cac;
+  padding-top: 15px;
+  padding-bottom: 15px;
   color: white; }
   footer.fao-footer li {
     margin-bottom: 10px; }
@@ -7099,7 +7101,24 @@ footer.fao-footer {
   footer.fao-footer a:focus,
   footer.fao-footer a:active {
     color: white; }
+  footer.fao-footer .device-image {
+    padding-right: 10px;
+    float: left; }
 
+/*//////////////////////////////////////////// Navbar Media queries */
+/* Ipad */
+@media (min-width: 768px) and (max-width: 990px) {
+  footer.fao-footer .device-image {
+    margin-bottom: 10px; } }
+/* Iphone */
+@media (max-width: 767px) {
+  footer.fao-footer {
+    text-align: center; }
+    footer.fao-footer .device-image {
+      margin-bottom: 10px;
+      float: none; }
+
+  /* End of the iPhone media query*/ }
 /* FAO Like Top Menu */
 /* Bootstrap reset */
 .navbar-brand {
@@ -7164,8 +7183,8 @@ footer.fao-footer {
       padding-bottom: 10px;
       padding-top: 10px;
       border-right: 1px solid #d2d0d0; }
-      .navbar-default .navbar-nav > li > a:hover {
-        color: #ec6e00 !important;
+      .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+        color: #ec6e00;
         background-color: white; }
     .navbar-default .navbar-nav > li.active a,
     .navbar-default .navbar-nav > li.active a:link,
@@ -7174,7 +7193,7 @@ footer.fao-footer {
     .navbar-default .navbar-nav > li.active a:focus,
     .navbar-default .navbar-nav > li.active a:active {
       border-bottom-color: transparent;
-      color: #ec6e00 !important; }
+      color: #ec6e00; }
     .navbar-default .navbar-nav > li.home-menu-item {
       width: 40px; }
       .navbar-default .navbar-nav > li.home-menu-item.active a {
@@ -7184,6 +7203,8 @@ footer.fao-footer {
         background-size: 20px 16px;
         background-position: 50% 50%;
         background-repeat: no-repeat; }
+        .navbar-default .navbar-nav > li.home-menu-item a:hover, .navbar-default .navbar-nav > li.home-menu-item a:focus {
+          background-image: url(../../src/images/home-h.png); }
 
 /* Open/Close button in mobile mode */
 .navbar-default .navbar-toggle {
@@ -7208,7 +7229,33 @@ footer.fao-footer {
       line-height: 20px; }
       .container.fao-header .fao-header-menu ul li a {
         /* Expand the item space in the mobile version */
-        margin: 5px; } }
+        margin: 5px; }
+
+  .topmenu {
+    padding-top: 30px; }
+    .topmenu .navbar-collapse {
+      background: none;
+      background-color: white;
+      border-color: transparent; }
+
+  .navbar-default .navbar-nav > li {
+    /* Home icon as fao website */ }
+    .navbar-default .navbar-nav > li > a {
+      border-right-color: transparent; }
+    .navbar-default .navbar-nav > li.active a,
+    .navbar-default .navbar-nav > li.active a:link,
+    .navbar-default .navbar-nav > li.active a:visited,
+    .navbar-default .navbar-nav > li.active a:hover,
+    .navbar-default .navbar-nav > li.active a:focus,
+    .navbar-default .navbar-nav > li.active a:active {
+      border-bottom-color: transparent;
+      color: #ec6e00 !important; }
+    .navbar-default .navbar-nav > li.home-menu-item {
+      width: 100%; }
+      .navbar-default .navbar-nav > li.home-menu-item a {
+        background-position: 15px 50%; }
+
+  /* End of the iPhone media query*/ }
 /*Form */
 .form-control {
   -webkit-transition: none;
