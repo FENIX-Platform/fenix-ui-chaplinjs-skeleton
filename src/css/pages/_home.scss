@@ -3,8 +3,9 @@
 
 
 [data-page='home']{
-  .breadcrumb{
-    opacity: 0;
+
+  .container-breadcrumb{
+    display: none;
   }
 
 }

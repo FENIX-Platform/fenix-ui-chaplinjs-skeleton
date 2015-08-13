@@ -7034,6 +7034,9 @@ body {
     border: 1px solid #2ab896;
     color: #2ab896; }
 
+.container {
+  background-color: white; }
+
 /* TEMPORARY */
 .btn.btn-default.json-editor-btn-collapse {
   color: #2395ab !important;
@@ -7417,5 +7420,5 @@ ul[role="group"] {
 /* Third parties */
 /* Pages */
 /* Homepage */
-[data-page='home'] .breadcrumb {
-  opacity: 0; }
+[data-page='home'] .container-breadcrumb {
+  display: none; }
