@@ -30,6 +30,12 @@ footer.fao-footer{
   }
 
 
+  .fao-social-holder{
+    display: inline-block;
+    width: 19%;
+    padding: 3px 2px;
+  }
+
 }
 
 
@@ -44,6 +50,13 @@ footer.fao-footer{
     .device-image {
       margin-bottom: 10px;
     }
+
+    .fao-social-holder{
+      display: inline-block;
+      width: 20%;
+      padding: 3px 2px;
+    }
+
   }
 
 }
@@ -62,7 +75,15 @@ footer.fao-footer{
       float: none;
     }
 
+    .fao-social-holder{
+      display: inline-block;
+      width: 15%;
+      margin: 3px;
+    }
+
+
   }
+
 
   /* End of the iPhone media query*/
 
